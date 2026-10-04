@@ -1,0 +1,365 @@
+table incendios
+	lineageTag: 9fd9c939-4a61-e3e8-dca2-67f74ce8a99c
+
+	column 'Id incendio'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 8a2dcf97-32db-8e36-8f9a-9a7a4d028d4e
+		summarizeBy: none
+		sourceColumn: Id incendio
+
+	column Año
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c21ec64e-70ce-74a0-7b27-d687c3b8a197
+		summarizeBy: none
+		sourceColumn: Año
+
+	column 'Fecha detección'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 173e03c9-7076-d999-d0d4-d9881c56dbc6
+		summarizeBy: none
+		sourceColumn: Fecha detección
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Provincia
+		dataType: string
+		lineageTag: 43aaef17-832c-fe8e-5a78-7185b73b82c0
+		summarizeBy: none
+		sourceColumn: Provincia
+
+	column Comunidad
+		dataType: string
+		lineageTag: 328900cc-5630-fed5-f8f1-ff5eca1b482f
+		summarizeBy: none
+		sourceColumn: Comunidad
+
+	column Latitud
+		dataType: double
+		formatString: 0.000
+		lineageTag: 6517e74b-b872-9fb4-4029-a64e9875bee3
+		summarizeBy: none
+		sourceColumn: Latitud
+
+	column Longitud
+		dataType: double
+		formatString: 0.000
+		lineageTag: eed07057-a783-274a-22ba-8ac9c735efa9
+		summarizeBy: none
+		sourceColumn: Longitud
+
+	column 'Superficie (ha)'
+		dataType: double
+		formatString: #,0.0
+		lineageTag: df227229-7419-19b3-7208-ff4c34861c1a
+		summarizeBy: none
+		sourceColumn: Superficie (ha)
+
+	column Personal
+		dataType: int64
+		formatString: #,0
+		lineageTag: 3f501bd5-3cc9-90af-9e06-26d18633fd7f
+		summarizeBy: none
+		sourceColumn: Personal
+
+	column 'Medios pesados'
+		dataType: int64
+		formatString: #,0
+		lineageTag: be7a6a0f-cb45-5ccc-7fd7-0b5bb4bb8ae4
+		summarizeBy: none
+		sourceColumn: Medios pesados
+
+	column 'Medios aéreos'
+		dataType: int64
+		formatString: #,0
+		lineageTag: 3c7495c2-7c24-6330-c503-6dd28b63e027
+		summarizeBy: none
+		sourceColumn: Medios aéreos
+
+	column 'Código causa'
+		dataType: int64
+		formatString: 0
+		lineageTag: 94cddd61-e81c-4249-a5ea-19e145f140a3
+		summarizeBy: none
+		sourceColumn: Código causa
+
+	column Intencionalidad
+		dataType: string
+		lineageTag: cd63f6f1-4760-5c3b-4c3b-1fcdd078cf4a
+		summarizeBy: none
+		sourceColumn: Intencionalidad
+
+	column Origen
+		dataType: string
+		lineageTag: 2f92a335-abed-7aad-9280-2e1becfdfe67
+		summarizeBy: none
+		sourceColumn: Origen
+
+	column Clase
+		dataType: string
+		lineageTag: 70a931e7-cf96-a372-b5ec-571745096b83
+		summarizeBy: none
+		sourceColumn: Clase
+
+	column Combustible
+		dataType: string
+		lineageTag: c3cc42c3-683a-04be-0888-cdace34b8c8e
+		summarizeBy: none
+		sourceColumn: Combustible
+
+	column 'Tipo de fuego'
+		dataType: string
+		lineageTag: b2ffc2ad-5259-e018-5369-41c01f97901e
+		summarizeBy: none
+		sourceColumn: Tipo de fuego
+
+	column 'Tipo de ataque'
+		dataType: string
+		lineageTag: fe463977-8138-1b03-80ed-5ebf3ede5861
+		summarizeBy: none
+		sourceColumn: Tipo de ataque
+
+	column Lugar
+		dataType: string
+		lineageTag: 8ce4a38f-6caa-c81a-99ad-252d984013b5
+		summarizeBy: none
+		sourceColumn: Lugar
+
+	column 'Detectado por'
+		dataType: string
+		lineageTag: 2c3c3d82-dc80-d2a2-2b4e-c67c27b3ecfd
+		summarizeBy: none
+		sourceColumn: Detectado por
+
+	column 'Franja horaria'
+		dataType: string
+		lineageTag: 8e0d9c75-78b0-d2a2-3b44-56737fd36ee7
+		summarizeBy: none
+		sourceColumn: Franja horaria
+		sortByColumn: 'Orden franja'
+
+	column 'Tipo de día'
+		dataType: string
+		lineageTag: cab59308-432b-7d1d-7c3b-a116e29590f8
+		summarizeBy: none
+		sourceColumn: Tipo de día
+
+	column 'Altitud (m)'
+		dataType: double
+		formatString: #,0
+		lineageTag: e337703a-2370-45ad-a0e1-f3132fb83663
+		summarizeBy: none
+		sourceColumn: Altitud (m)
+
+	column 'Duración (días)'
+		dataType: double
+		formatString: 0
+		lineageTag: 58134b61-f4b5-477f-9b4d-942bd7754f00
+		summarizeBy: none
+		sourceColumn: Duración (días)
+
+	column 'Temperatura (°C)'
+		dataType: double
+		formatString: 0.0
+		lineageTag: 58880f4c-44f6-4430-b17a-8fec4f1c354c
+		summarizeBy: none
+		sourceColumn: Temperatura (°C)
+
+	column 'Humedad relativa (%)'
+		dataType: double
+		formatString: 0.0
+		lineageTag: 00166b2e-d2ba-4449-9223-840669a5d613
+		summarizeBy: none
+		sourceColumn: Humedad relativa (%)
+
+	column 'Viento (km/h)'
+		dataType: double
+		formatString: 0.0
+		lineageTag: db033253-a5ca-4f9e-a201-9bd2025f68fe
+		summarizeBy: none
+		sourceColumn: Viento (km/h)
+
+	column 'Días desde última lluvia'
+		dataType: double
+		formatString: 0
+		lineageTag: 20ab385f-d9cd-4683-930b-c4f069cd0c7f
+		summarizeBy: none
+		sourceColumn: Días desde última lluvia
+
+	column 'Aviso 112'
+		dataType: string
+		lineageTag: 0b36273e-cafc-4247-996a-f57b64aed196
+		summarizeBy: none
+		sourceColumn: Aviso 112
+
+	column 'Rango de temperatura'
+		dataType: string
+		lineageTag: f5416cad-0d17-4559-a4cd-336a4f3fe06f
+		summarizeBy: none
+		sourceColumn: Rango de temperatura
+		sortByColumn: 'Orden temperatura'
+
+	column 'Orden temperatura'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5e537f7d-6d8c-47ec-8851-f8dcc590f1b7
+		summarizeBy: none
+		sourceColumn: Orden temperatura
+
+	column 'Rango de humedad'
+		dataType: string
+		lineageTag: f1932f60-c5fb-4972-a700-4ee22e71f875
+		summarizeBy: none
+		sourceColumn: Rango de humedad
+		sortByColumn: 'Orden humedad'
+
+	column 'Orden humedad'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 43033c54-dc4f-48d0-b966-8430224102c9
+		summarizeBy: none
+		sourceColumn: Orden humedad
+
+	column 'Rango de viento'
+		dataType: string
+		lineageTag: 732d8a63-8743-48ec-b153-ead876eaf91c
+		summarizeBy: none
+		sourceColumn: Rango de viento
+		sortByColumn: 'Orden viento'
+
+	column 'Orden viento'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5c23b827-e080-422c-a3d4-9a46c7a31712
+		summarizeBy: none
+		sourceColumn: Orden viento
+
+	column 'Rango días sin lluvia'
+		dataType: string
+		lineageTag: ec8569d5-a7ec-4934-9adb-dfef018ecec3
+		summarizeBy: none
+		sourceColumn: Rango días sin lluvia
+		sortByColumn: 'Orden lluvia'
+
+	column 'Orden lluvia'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b9937ea3-4d63-4dcc-b188-a5195da73ead
+		summarizeBy: none
+		sourceColumn: Orden lluvia
+
+	column 'Rango de altitud'
+		dataType: string
+		lineageTag: c9065f4e-5dba-4f89-8383-82bfc17350a0
+		summarizeBy: none
+		sourceColumn: Rango de altitud
+		sortByColumn: 'Orden altitud'
+
+	column 'Orden altitud'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9973a31d-e1b9-4be4-915a-92485a05a92d
+		summarizeBy: none
+		sourceColumn: Orden altitud
+
+	column 'Duración del incendio'
+		dataType: string
+		lineageTag: 94051976-d89a-43d9-bace-0d7bfe6f23e2
+		summarizeBy: none
+		sourceColumn: Duración del incendio
+		sortByColumn: 'Orden duración'
+
+	column 'Orden duración'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d0618b10-319b-41a8-ba2f-c08f77b81fd8
+		summarizeBy: none
+		sourceColumn: Orden duración
+
+	column 'Orden franja'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c717bf5c-38e5-4231-bfa9-14a422eae73b
+		summarizeBy: none
+		sourceColumn: Orden franja
+
+	partition incendios = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaCSV), [Delimiter=";", Columns=51, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    Seleccion = Table.SelectColumns(Encabezados, {"idpif", "anio", "deteccion", "provincia", "comunidad", "latitud", "longitud", "perdidassuperficiales", "numeromediospersonal", "numeromediospesados", "numeromediosaereos", "idcausa", "intencionalidad", "claseincendio", "combustible", "tipodefuego", "tipodeataque", "lugar", "iddetectadopor", "horadeteccion", "idclasedia", "altitud", "duracion", "tempmaxima", "humrelativa", "velocidadviento", "diasultimalluvia", "primeranotificaciondesde112"}),
+				    SinNA = Table.TransformColumns(Seleccion, List.Transform(Table.ColumnNames(Seleccion), each {_, (v) => if v = "NA" or v = "" then null else v, type nullable text})),
+				    Numericos = Table.TransformColumnTypes(SinNA, {{"idpif", Int64.Type}, {"anio", Int64.Type}, {"latitud", type number}, {"longitud", type number}, {"perdidassuperficiales", type number}, {"numeromediospersonal", Int64.Type}, {"numeromediospesados", Int64.Type}, {"numeromediosaereos", Int64.Type}, {"idcausa", Int64.Type}, {"altitud", type number}, {"duracion", type number}, {"tempmaxima", type number}, {"humrelativa", type number}, {"velocidadviento", type number}, {"diasultimalluvia", type number}}, "en-US"),
+				    Fechas = Table.TransformColumnTypes(Numericos, {{"deteccion", type date}}, "es-ES"),
+				    Limpieza = Table.TransformColumns(Fechas, {
+				        {"tempmaxima", each if _ = null or _ < -15 or _ > 50 then null else _, type nullable number},
+				        {"humrelativa", each if _ = null or _ < 0 or _ > 100 then null else _, type nullable number},
+				        {"velocidadviento", each if _ = null or _ < 0 or _ > 150 then null else _, type nullable number},
+				        {"diasultimalluvia", each if _ = null or _ < 0 or _ > 365 then null else _, type nullable number}
+				    }),
+				    MapaOrdenFranja = [madrugada = 1, manana = 2, tarde = 3, noche = 4],
+				    ConFranja = Table.AddColumn(Limpieza, "ordenfranja", each if [horadeteccion] = null then 9 else Record.FieldOrDefault(MapaOrdenFranja, [horadeteccion], 9), Int64.Type),
+				    Etiquetar = (valor as nullable text, mapa as record) as text => if valor = null then "Sin dato" else Record.FieldOrDefault(mapa, valor, valor),
+				    Combinar = (valor as nullable text, mapa as record) as text =>
+				        if valor = null then "Sin dato" else
+				        let txt = Text.Combine(List.Transform(Text.Split(valor, "_"), each Record.FieldOrDefault(mapa, _, _)), " + ")
+				        in Text.Upper(Text.Start(txt, 1)) & Text.Middle(txt, 1),
+				    MapaProvincia = [#"A Coruna" = "A Coruña", Alava = "Álava", Almeria = "Almería", Avila = "Ávila", Caceres = "Cáceres", Cadiz = "Cádiz", Castellon = "Castellón", Cordoba = "Córdoba", Jaen = "Jaén", Leon = "León", Malaga = "Málaga"],
+				    MapaComunidad = [Aragon = "Aragón", Andalucia = "Andalucía", Cataluna = "Cataluña", #"Castilla y Leon" = "Castilla y León", #"Castilla La Mancha" = "Castilla-La Mancha", #"Pais Vasco" = "País Vasco", #"Region de Murcia" = "Región de Murcia", #"Ciudad Autonoma de Ceuta" = "Ciudad Autónoma de Ceuta"],
+				    MapaIntencionalidad = [intencionado = "Intencionado", supuesto_intencionado = "Supuestamente intencionado", no_intencionado = "No intencionado", supuesto_no_intencionado = "Supuestamente no intencionado"],
+				    MapaClase = [conato = "Conato", incendio = "Incendio", gif = "Gran incendio (GIF)"],
+				    MapaCombustible = [mat = "matorral", matorral = "matorral", bos = "bosque", bosques = "bosque", pas = "pastizal", pastizal = "pastizal", res = "restos", restos = "restos"],
+				    MapaFuego = [sup = "superficie", superficie = "superficie", cop = "copas", copas = "copas", sub = "subsuelo", subsuelo = "subsuelo", foc = "focos secundarios"],
+				    MapaAtaque = [directo = "Directo", indirecto = "Indirecto", combinado = "Combinado"],
+				    MapaLugar = [otros = "Otros", excursionistas = "Excursionistas", lineaselectricas = "Líneas eléctricas", viasferreas = "Vías férreas", vertederos = "Vertederos", autoviacarretera = "Autovías y carreteras", edificaciones = "Edificaciones", pistacamino = "Pistas y caminos"],
+				    MapaDetector = [agente_forestal = "Agente forestal", base_cdf = "Base CDF", vigilante_movil = "Vigilante móvil", vigilante_fijo = "Vigilante fijo", ccff_seguridad = "Fuerzas de seguridad", aeronave = "Aeronave", llamada_particular = "Llamada de particular", stmas_automaticos = "Sistemas automáticos", otros = "Otros", ejercito = "Ejército"],
+				    MapaHora = [madrugada = "Madrugada", manana = "Mañana", tarde = "Tarde", noche = "Noche"],
+				    MapaDia = [laborable = "Laborable", festivo = "Festivo", sabado = "Sábado", lab_vis_festivo = "Laborable previo a festivo"],
+				    Etiquetas = Table.TransformColumns(ConFranja, {
+				        {"provincia", each Etiquetar(_, MapaProvincia), type text},
+				        {"comunidad", each Etiquetar(_, MapaComunidad), type text},
+				        {"intencionalidad", each Etiquetar(_, MapaIntencionalidad), type text},
+				        {"claseincendio", each Etiquetar(_, MapaClase), type text},
+				        {"combustible", each Combinar(_, MapaCombustible), type text},
+				        {"tipodefuego", each Combinar(_, MapaFuego), type text},
+				        {"tipodeataque", each Etiquetar(_, MapaAtaque), type text},
+				        {"lugar", each Etiquetar(_, MapaLugar), type text},
+				        {"iddetectadopor", each Etiquetar(_, MapaDetector), type text},
+				        {"horadeteccion", each Etiquetar(_, MapaHora), type text},
+				        {"idclasedia", each Etiquetar(_, MapaDia), type text}
+				    }),
+				    ConOrigen = Table.AddColumn(Etiquetas, "Origen", each if [idcausa] = null then "Sin dato" else if [idcausa] >= 400 and [idcausa] <= 499 then "Intencionado" else "No intencionado", type text),
+				    Indice = (v as nullable number, limites as list) as nullable number => if v = null then null else List.Count(List.Select(limites, each v >= _)),
+				    Etiqueta = (i as nullable number, textos as list) as nullable text => if i = null then null else textos{i},
+				    AgregarBanda = (t as table, origen as text, nombre as text, orden as text, limites as list, textos as list) as table =>
+				        let
+				            conOrden = Table.AddColumn(t, orden, each Indice(Record.Field(_, origen), limites), Int64.Type),
+				            conTexto = Table.AddColumn(conOrden, nombre, each Etiqueta(Record.Field(_, orden), textos), type text)
+				        in
+				            conTexto,
+				    B1 = AgregarBanda(ConOrigen, "tempmaxima", "Rango de temperatura", "Orden temperatura", {10, 15, 20, 25, 30, 35}, {"< 10 °C", "10–15 °C", "15–20 °C", "20–25 °C", "25–30 °C", "30–35 °C", "≥ 35 °C"}),
+				    B2 = AgregarBanda(B1, "humrelativa", "Rango de humedad", "Orden humedad", {20, 35, 50, 65, 80}, {"< 20 %", "20–35 %", "35–50 %", "50–65 %", "65–80 %", "≥ 80 %"}),
+				    B3 = AgregarBanda(B2, "velocidadviento", "Rango de viento", "Orden viento", {10, 20, 30, 40}, {"< 10 km/h", "10–20 km/h", "20–30 km/h", "30–40 km/h", "≥ 40 km/h"}),
+				    B4 = AgregarBanda(B3, "diasultimalluvia", "Rango días sin lluvia", "Orden lluvia", {3, 7, 15, 30, 60}, {"0–2 días", "3–6 días", "7–14 días", "15–29 días", "30–59 días", "≥ 60 días"}),
+				    B5 = AgregarBanda(B4, "altitud", "Rango de altitud", "Orden altitud", {200, 400, 600, 800, 1000, 1200}, {"< 200 m", "200–400 m", "400–600 m", "600–800 m", "800–1.000 m", "1.000–1.200 m", "≥ 1.200 m"}),
+				    B6 = AgregarBanda(B5, "duracion", "Duración del incendio", "Orden duración", {1, 2, 3, 5}, {"Mismo día", "1 día", "2 días", "3–4 días", "5+ días"}),
+				    ConAviso = Table.AddColumn(B6, "Aviso 112", each if [primeranotificaciondesde112] = "VERDADERO" then "Sí" else if [primeranotificaciondesde112] = "FALSO" then "No" else "Sin dato", type text),
+				    SinAuxiliares = Table.RemoveColumns(ConAviso, {"primeranotificaciondesde112"}),
+				    Renombrado = Table.RenameColumns(SinAuxiliares, {{"idpif", "Id incendio"}, {"anio", "Año"}, {"deteccion", "Fecha detección"}, {"provincia", "Provincia"}, {"comunidad", "Comunidad"}, {"latitud", "Latitud"}, {"longitud", "Longitud"}, {"perdidassuperficiales", "Superficie (ha)"}, {"numeromediospersonal", "Personal"}, {"numeromediospesados", "Medios pesados"}, {"numeromediosaereos", "Medios aéreos"}, {"idcausa", "Código causa"}, {"intencionalidad", "Intencionalidad"}, {"claseincendio", "Clase"}, {"combustible", "Combustible"}, {"tipodefuego", "Tipo de fuego"}, {"tipodeataque", "Tipo de ataque"}, {"lugar", "Lugar"}, {"iddetectadopor", "Detectado por"}, {"horadeteccion", "Franja horaria"}, {"idclasedia", "Tipo de día"}, {"altitud", "Altitud (m)"}, {"duracion", "Duración (días)"}, {"tempmaxima", "Temperatura (°C)"}, {"humrelativa", "Humedad relativa (%)"}, {"velocidadviento", "Viento (km/h)"}, {"diasultimalluvia", "Días desde última lluvia"}, {"ordenfranja", "Orden franja"}}),
+				    Final = Table.ReorderColumns(Renombrado, {"Id incendio", "Año", "Fecha detección", "Provincia", "Comunidad", "Latitud", "Longitud", "Superficie (ha)", "Personal", "Medios pesados", "Medios aéreos", "Código causa", "Intencionalidad", "Origen", "Clase", "Combustible", "Tipo de fuego", "Tipo de ataque", "Lugar", "Detectado por", "Franja horaria", "Tipo de día"})
+				in
+				    Final
+

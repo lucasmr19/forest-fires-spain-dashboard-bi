@@ -1,0 +1,5 @@
+expression RutaCSV = "data\incendios.csv" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 8d1dc3c6-6043-3f28-9282-debc4dba780a
+
+	annotation PBI_ResultType = Text
+

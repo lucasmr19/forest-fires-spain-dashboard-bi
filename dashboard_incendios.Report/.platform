@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "dashboard_incendios"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d4d2291f-a0ea-40b4-af63-cf502fa1a2bb"
+  }
+}

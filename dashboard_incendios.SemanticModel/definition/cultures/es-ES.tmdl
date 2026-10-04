@@ -1,0 +1,2856 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_calendario.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.estación": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Estación"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estación": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.mes_corto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Mes corto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes corto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me corto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.superficie_en_grandes_incendios": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% superficie en grandes incendios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% superficie en grandes incendios": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage superficie en grande incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "pct superficie en grande incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "🎯 % de la superficie en GIF": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.intencionalidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% intencionalidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% intencionalidad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage intencionalidad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct intencionalidad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "🧨 % intencionados": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "% intenc.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "📊 % intencionalidad": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.superficie_quemada_ha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Superficie quemada (ha)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "superficie quemada (ha)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "superficie quemada": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "🌲 Hectáreas quemadas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Sup. (ha)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.incendios": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Incendios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "incendios": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "🔥 Incendios": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "🔥 Incendios totales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.superficie_media_ha_incendio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Superficie media (ha/incendio)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "superficie media (ha/incendio)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "superficie media": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "superficie media (ha": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "superficie media ( ha incendio )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "incendio)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "📏 Ha por incendio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Sup. media": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.incendios_intencionados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Incendios intencionados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "incendios intencionados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "🧨 Intencionados": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.conatos1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% conatos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% conatos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage conato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct conato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "🌱 % son conatos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.grandes_incendios": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% grandes incendios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% grandes incendios": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage grande incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct grande incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "📉 % son grandes incendios": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.grandes_incendios1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Grandes incendios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "grandes incendios": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "🚨 Grandes incendios (GIF)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.medios_aéreos_nº": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Medios aéreos (nº)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medios aéreos (nº)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "🚁 Medios aéreos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.medios_pesados_nº": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Medios pesados (nº)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medios pesados (nº)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "🚜 Medios pesados": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.personal_movilizado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Personal movilizado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "personal movilizado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "👨‍🚒 Personal movilizado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.origen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Origen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "origen": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Origen de la causa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.comunidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Comunidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comunidad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Comunidad autónoma": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "incendio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "incendio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.id_incendio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Id incendio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id incendio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential incendio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.fecha_detección": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Fecha detección"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha detección": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Fecha": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "incendio.provincia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Provincia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "provincia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.latitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Latitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.longitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Longitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.superficie_ha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Superficie (ha)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "superficie (ha)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "superficie": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.personal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Personal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "personal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "individual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "private": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "particular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "special": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "peculiar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "intimate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "offensive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "familiar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.medios_pesado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Medios pesados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medios pesado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medio pesado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.medios_aéreo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Medios aéreos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medios aéreo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medio aéreo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.código_causa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Código causa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "código causa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.intencionalidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Intencionalidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "intencionalidad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.clase": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Clase"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clase": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.combustible": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Combustible"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "combustible": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flammable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "inflammable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "explosive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.tipo_de_fuego": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Tipo de fuego"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de fuego": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.tipo_de_ataque": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Tipo de ataque"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de ataque": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.lugar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Lugar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lugar": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.detectado_por": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Detectado por"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "detectado por": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.franja_horaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Franja horaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "franja horaria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "incendio.tipo_de_día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "incendios",
+			          "ConceptualProperty": "Tipo de día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim calendario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Calendario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_calendario.mes_nº": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Mes nº"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "mes nº": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me nº": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_calendario.nº_estación": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Calendario",
+			          "ConceptualProperty": "Nº estación"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "nº estación": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.conatos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Conatos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "conatos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "table_medidas.duración_media_días": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Duración media (días)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "⏱️ Duración media (días)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_medidas.avisados_por_112": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% avisados por 112"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "📞 % avisados por el 112": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_medidas.días_sin_lluvia_media": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Días sin lluvia (media)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "☔ Días desde la última lluvia": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_medidas.humedad_media_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Humedad media (%)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "💧 Humedad relativa media (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_medidas.viento_medio_km_h": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Viento medio (km/h)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "💨 Viento medio (km/h)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_medidas.temperatura_media_c": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Temperatura media (°C)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "🌡️ Temperatura media (°C)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "incendio_has_dim_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_dim_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "incendio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_incendios"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_conatos": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.conatos": {
+			          "Target": {
+			            "Entity": "entity__medida.conatos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.conatos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_conatos"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.trimestre": {
+			          "Target": {
+			            "Entity": "dim_calendario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.me": {
+			          "Target": {
+			            "Entity": "dim_calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.fecha": {
+			          "Target": {
+			            "Entity": "dim_calendario.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_fechas"
+			        }
+			      ]
+			    },
+			    "incendio_has_tipo_de_día": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.tipo_de_día": {
+			          "Target": {
+			            "Entity": "incendio.tipo_de_día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.tipo_de_día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_tipo_de_días"
+			        }
+			      ]
+			    },
+			    "incendio_has_franja_horaria": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.franja_horaria": {
+			          "Target": {
+			            "Entity": "incendio.franja_horaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.franja_horaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_franja_horarias"
+			        }
+			      ]
+			    },
+			    "incendio_has_detectado_por": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.detectado_por": {
+			          "Target": {
+			            "Entity": "incendio.detectado_por"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.detectado_por"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_detectado_pors"
+			        }
+			      ]
+			    },
+			    "incendio_has_lugar": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.lugar": {
+			          "Target": {
+			            "Entity": "incendio.lugar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.lugar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_lugar"
+			        }
+			      ]
+			    },
+			    "incendio_has_tipo_de_ataque": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.tipo_de_ataque": {
+			          "Target": {
+			            "Entity": "incendio.tipo_de_ataque"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.tipo_de_ataque"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_tipo_de_ataques"
+			        }
+			      ]
+			    },
+			    "incendio_has_tipo_de_fuego": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.tipo_de_fuego": {
+			          "Target": {
+			            "Entity": "incendio.tipo_de_fuego"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.tipo_de_fuego"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_tipo_de_fuego"
+			        }
+			      ]
+			    },
+			    "incendio_has_combustible": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.combustible": {
+			          "Target": {
+			            "Entity": "incendio.combustible"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.combustible"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_combustibles"
+			        }
+			      ]
+			    },
+			    "incendio_has_clase": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.clase": {
+			          "Target": {
+			            "Entity": "incendio.clase"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.clase"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_clases"
+			        }
+			      ]
+			    },
+			    "incendio_has_intencionalidad": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.intencionalidad": {
+			          "Target": {
+			            "Entity": "incendio.intencionalidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.intencionalidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_intencionalidads"
+			        }
+			      ]
+			    },
+			    "incendio_has_código_causa": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.código_causa": {
+			          "Target": {
+			            "Entity": "incendio.código_causa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.código_causa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_código_causas"
+			        }
+			      ]
+			    },
+			    "incendio_has_medios_aéreo": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.medios_aéreo": {
+			          "Target": {
+			            "Entity": "incendio.medios_aéreo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.medios_aéreo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_medios_aéreos"
+			        }
+			      ]
+			    },
+			    "incendio_has_medios_pesado": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.medios_pesado": {
+			          "Target": {
+			            "Entity": "incendio.medios_pesado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.medios_pesado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_medios_pesados"
+			        }
+			      ]
+			    },
+			    "incendio_has_personal": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.personal": {
+			          "Target": {
+			            "Entity": "incendio.personal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.personal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_personals"
+			        }
+			      ]
+			    },
+			    "incendio_has_superficie_ha": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.superficie_ha": {
+			          "Target": {
+			            "Entity": "incendio.superficie_ha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.superficie_ha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_superficie_ha"
+			        }
+			      ]
+			    },
+			    "incendio_has_longitud": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.longitud": {
+			          "Target": {
+			            "Entity": "incendio.longitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.longitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_longituds"
+			        }
+			      ]
+			    },
+			    "incendio_has_latitud": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.latitud": {
+			          "Target": {
+			            "Entity": "incendio.latitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.latitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_latituds"
+			        }
+			      ]
+			    },
+			    "incendio_has_provincia": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.provincia": {
+			          "Target": {
+			            "Entity": "incendio.provincia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.provincia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_provincias"
+			        }
+			      ]
+			    },
+			    "incendio_has_fecha_detección": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.fecha_detección": {
+			          "Target": {
+			            "Entity": "incendio.fecha_detección"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.fecha_detección"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_fecha_deteccións"
+			        }
+			      ]
+			    },
+			    "incendio_has_comunidad": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.comunidad": {
+			          "Target": {
+			            "Entity": "incendio.comunidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.comunidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_comunidads"
+			        }
+			      ]
+			    },
+			    "incendio_has_origen": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "incendio.origen": {
+			          "Target": {
+			            "Entity": "incendio.origen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "incendio.origen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_origen"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_personal_movilizado": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.personal_movilizado": {
+			          "Target": {
+			            "Entity": "entity__medida.personal_movilizado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.personal_movilizado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_personal_movilizado"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_medios_pesados_nº": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.medios_pesados_nº": {
+			          "Target": {
+			            "Entity": "entity__medida.medios_pesados_nº"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.medios_pesados_nº"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_medios_pesados_nº"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_medios_aéreos_nº": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.medios_aéreos_nº": {
+			          "Target": {
+			            "Entity": "entity__medida.medios_aéreos_nº"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.medios_aéreos_nº"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_medios_aéreos_nº"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_grandes_incendios1": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.grandes_incendios1": {
+			          "Target": {
+			            "Entity": "entity__medida.grandes_incendios1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.grandes_incendios1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_grandes_incendios"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_grandes_incendios": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.grandes_incendios": {
+			          "Target": {
+			            "Entity": "entity__medida.grandes_incendios"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.grandes_incendios"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have__grandes_incendios"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_conatos1": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.conatos1": {
+			          "Target": {
+			            "Entity": "entity__medida.conatos1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.conatos1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have__conatos"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_incendios_intencionados": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.incendios_intencionados": {
+			          "Target": {
+			            "Entity": "entity__medida.incendios_intencionados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.incendios_intencionados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_incendios_intencionados"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_superficie_media_ha_incendio": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.superficie_media_ha_incendio": {
+			          "Target": {
+			            "Entity": "entity__medida.superficie_media_ha_incendio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.superficie_media_ha_incendio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_superficie_media_ha_incendio"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_incendios": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.incendios": {
+			          "Target": {
+			            "Entity": "entity__medida.incendios"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.incendios"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_incendios"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_superficie_quemada_ha": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.superficie_quemada_ha": {
+			          "Target": {
+			            "Entity": "entity__medida.superficie_quemada_ha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.superficie_quemada_ha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have_superficie_quemada_ha"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_intencionalidad": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.intencionalidad": {
+			          "Target": {
+			            "Entity": "entity__medida.intencionalidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.intencionalidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have__intencionalidad"
+			        }
+			      ]
+			    },
+			    "incendio_has_entity__medida_superficie_en_grandes_incendios": {
+			      "Binding": {
+			        "ConceptualEntity": "incendios"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "incendio": {
+			          "Target": {
+			            "Entity": "incendio"
+			          }
+			        },
+			        "entity__medida.superficie_en_grandes_incendios": {
+			          "Target": {
+			            "Entity": "entity__medida.superficie_en_grandes_incendios"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "incendio"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.superficie_en_grandes_incendios"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "incendios_have__superficie_en_grandes_incendios"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_mes_corto": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.mes_corto": {
+			          "Target": {
+			            "Entity": "dim_calendario.mes_corto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.mes_corto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_mes_cortos"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_estación": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.estación": {
+			          "Target": {
+			            "Entity": "dim_calendario.estación"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.estación"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_estacións"
+			        }
+			      ]
+			    },
+			    "dim_calendario_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_calendario": {
+			          "Target": {
+			            "Entity": "dim_calendario"
+			          }
+			        },
+			        "dim_calendario.año": {
+			          "Target": {
+			            "Entity": "dim_calendario.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_calendario"
+			            },
+			            "Object": {
+			              "Role": "dim_calendario.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_calendarios_have_años"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

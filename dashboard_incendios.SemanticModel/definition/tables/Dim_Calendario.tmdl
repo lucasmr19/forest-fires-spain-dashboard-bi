@@ -1,0 +1,88 @@
+table Dim_Calendario
+	lineageTag: 71926590-7d39-d10f-2222-c8acfbc6f7d8
+	dataCategory: Time
+
+	column Fecha
+		dataType: dateTime
+		isKey
+		formatString: dd/mm/yyyy
+		lineageTag: c2dd84ac-47c4-707a-e9c8-1e337de837fb
+		summarizeBy: none
+		sourceColumn: [Fecha]
+
+	column Año
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b2682eb-ec0f-8e51-6e54-52817e6e2269
+		summarizeBy: none
+		sourceColumn: [Año]
+
+	column 'Mes nº'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 49dcb164-ca2e-53be-4020-9ca3e022541c
+		summarizeBy: none
+		sourceColumn: [Mes nº]
+
+	column Mes
+		dataType: string
+		lineageTag: 0b165dac-48ac-34d4-825e-d850b023130a
+		summarizeBy: none
+		sourceColumn: [Mes]
+		sortByColumn: 'Mes nº'
+
+	column 'Mes corto'
+		dataType: string
+		lineageTag: 18dc07f2-eaa2-6a33-8873-9b2fa37af77d
+		summarizeBy: none
+		sourceColumn: [Mes corto]
+		sortByColumn: 'Mes nº'
+
+	column Trimestre
+		dataType: string
+		lineageTag: da8faeaa-5cad-f961-e8e2-f9f1353c660d
+		summarizeBy: none
+		sourceColumn: [Trimestre]
+
+	column Estación
+		dataType: string
+		lineageTag: 0c017bff-f7b0-9770-4858-2dd325e3655a
+		summarizeBy: none
+		sourceColumn: [Estación]
+		sortByColumn: 'Nº estación'
+
+	column 'Nº estación'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5203c578-15ac-26e3-af4b-43bc3a1cd589
+		summarizeBy: none
+		sourceColumn: [Nº estación]
+
+	column 'Año corto'
+		dataType: string
+		lineageTag: 9a50fb53-4c76-4bd2-b349-c6ce3e90a550
+		summarizeBy: none
+		sourceColumn: [Año corto]
+		sortByColumn: Año
+
+	partition Dim_Calendario = calculated
+		mode: import
+		source =
+				VAR _ini = YEAR(MIN(incendios[Fecha detección]))
+				VAR _fin = YEAR(MAX(incendios[Fecha detección]))
+				RETURN
+				SELECTCOLUMNS(
+				    CALENDAR(DATE(_ini, 1, 1), DATE(_fin, 12, 31)),
+				    "Fecha", [Date],
+				    "Año", YEAR([Date]),
+				    "Año corto", "'" & RIGHT(YEAR([Date]), 2),
+				    "Mes nº", MONTH([Date]),
+				    "Mes", FORMAT([Date], "mmmm", "es-ES"),
+				    "Mes corto", FORMAT([Date], "mmm", "es-ES"),
+				    "Trimestre", "T" & QUARTER([Date]),
+				    "Estación", SWITCH(TRUE(), MONTH([Date]) IN {12, 1, 2}, "Invierno", MONTH([Date]) IN {3, 4, 5}, "Primavera", MONTH([Date]) IN {6, 7, 8}, "Verano", "Otoño"),
+				    "Nº estación", SWITCH(TRUE(), MONTH([Date]) IN {12, 1, 2}, 4, MONTH([Date]) IN {3, 4, 5}, 1, MONTH([Date]) IN {6, 7, 8}, 2, 3)
+				)
+

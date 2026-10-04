@@ -1,0 +1,105 @@
+table _Medidas
+	lineageTag: 808ffca4-76ee-26aa-60c5-62af3e86dfe6
+
+	measure Incendios = COUNTROWS(incendios)
+		formatString: #,0
+		lineageTag: 81eb50e7-6eae-0e17-20ba-df96ce606bab
+
+	measure 'Superficie quemada (ha)' = SUM(incendios[Superficie (ha)])
+		formatString: #,0
+		lineageTag: 2f8bce48-b06b-c0b2-ee3f-f62b2117fc72
+
+	measure 'Superficie media (ha/incendio)' = DIVIDE([Superficie quemada (ha)], [Incendios])
+		formatString: #,0.0
+		lineageTag: f7ca1e2d-e623-7223-31b5-84c0f9243819
+
+	measure 'Incendios intencionados' = CALCULATE([Incendios], incendios[Origen] = "Intencionado")
+		formatString: #,0
+		lineageTag: 1934196a-62b1-6c25-a8bb-b7a3372fd6b5
+
+	measure '% intencionalidad' = DIVIDE([Incendios intencionados], [Incendios])
+		formatString: 0.0%
+		lineageTag: 66e85b28-1a55-1ec6-4259-ce0b0e34f1ab
+
+	measure 'Grandes incendios' = CALCULATE([Incendios], incendios[Clase] = "Gran incendio (GIF)")
+		formatString: #,0
+		lineageTag: 19068997-ff85-85f8-9713-84d3b2b35400
+
+	measure Conatos = CALCULATE([Incendios], incendios[Clase] = "Conato")
+		formatString: #,0
+		lineageTag: 2b0f3a5e-2cc9-db39-43ad-aa14998a6039
+
+	measure '% conatos' = DIVIDE([Conatos], [Incendios])
+		formatString: 0.0%
+		lineageTag: 52921f0f-1a8e-5906-9911-d390708158d5
+
+	measure '% grandes incendios' = DIVIDE([Grandes incendios], [Incendios])
+		formatString: 0.00%
+		lineageTag: a7925865-dfd0-fca5-9b3b-a6ea8e3aa244
+
+	measure '% superficie en grandes incendios' = DIVIDE(CALCULATE([Superficie quemada (ha)], incendios[Clase] = "Gran incendio (GIF)"), [Superficie quemada (ha)])
+		formatString: 0.0%
+		lineageTag: 2585367c-a9ce-b404-354e-330cd9fcc6b8
+
+	measure 'Personal movilizado' = SUM(incendios[Personal])
+		formatString: #,0
+		lineageTag: 746bc714-7667-c9c5-c919-62250c56e8a8
+
+	measure 'Medios pesados (nº)' = SUM(incendios[Medios pesados])
+		formatString: #,0
+		lineageTag: 6c669866-883f-3b14-0b43-7440a25d1e61
+
+	measure 'Medios aéreos (nº)' = SUM(incendios[Medios aéreos])
+		formatString: #,0
+		lineageTag: e57c678a-d6aa-0a92-2a27-37cc2aec80d9
+
+	measure 'Duración media (días)' = AVERAGE(incendios[Duración (días)])
+		formatString: 0.00
+		displayFolder: Clima y riesgo
+		lineageTag: c110d1a3-f904-4e79-a0cd-35665a9329b1
+
+	measure 'Temperatura media (°C)' = AVERAGE(incendios[Temperatura (°C)])
+		formatString: 0.0
+		displayFolder: Clima y riesgo
+		lineageTag: 14cffa11-f2c9-407d-9f2d-428e209b007a
+
+	measure 'Humedad media (%)' = AVERAGE(incendios[Humedad relativa (%)])
+		formatString: 0.0
+		displayFolder: Clima y riesgo
+		lineageTag: 3d741d2e-938b-4e15-91d4-82438a99146d
+
+	measure 'Viento medio (km/h)' = AVERAGE(incendios[Viento (km/h)])
+		formatString: 0.0
+		displayFolder: Clima y riesgo
+		lineageTag: 76e55605-54de-4574-b4bb-faccda4b159e
+
+	measure 'Días sin lluvia (media)' = AVERAGE(incendios[Días desde última lluvia])
+		formatString: 0.0
+		displayFolder: Clima y riesgo
+		lineageTag: 66e8e177-5ba8-469e-bb0f-3f1923092db0
+
+	measure 'Altitud media (m)' = AVERAGE(incendios[Altitud (m)])
+		formatString: #,0
+		displayFolder: Clima y riesgo
+		lineageTag: 92e505d7-6ed8-4131-a6e9-9f40909da7f7
+
+	measure 'Superficie media (con dato)' = IF(ISBLANK(SELECTEDVALUE(incendios[Rango de temperatura], "x")) || ISBLANK(SELECTEDVALUE(incendios[Rango de humedad], "x")) || ISBLANK(SELECTEDVALUE(incendios[Rango de viento], "x")) || ISBLANK(SELECTEDVALUE(incendios[Rango días sin lluvia], "x")) || ISBLANK(SELECTEDVALUE(incendios[Rango de altitud], "x")), BLANK(), [Superficie media (ha/incendio)])
+		formatString: #,0.0
+		displayFolder: Clima y riesgo
+		lineageTag: 9361cb62-ae08-4644-8d1b-a88a290f99f4
+
+	measure '% avisados por 112' = DIVIDE(CALCULATE([Incendios], incendios[Aviso 112] = "Sí"), [Incendios])
+		formatString: 0.0%
+		lineageTag: 7514e925-bb04-4cf3-9715-847f9aeeddfe
+
+	column Valor
+		dataType: int64
+		isHidden
+		lineageTag: 0d4e832f-84b3-eaca-745b-2c8ace02a0cf
+		summarizeBy: none
+		sourceColumn: [Valor]
+
+	partition _Medidas = calculated
+		mode: import
+		source = ROW("Valor", 0)
+

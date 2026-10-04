@@ -1,0 +1,4 @@
+relationship 7ffc4d51-0260-a854-4e55-50e62ec56bc1
+	fromColumn: incendios.'Fecha detección'
+	toColumn: Dim_Calendario.Fecha
+

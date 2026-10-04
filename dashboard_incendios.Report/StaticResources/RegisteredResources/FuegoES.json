@@ -1,0 +1,74 @@
+{
+  "name": "FuegoES",
+  "dataColors": [
+    "#E8590C",
+    "#3E5C76",
+    "#F5A524",
+    "#B3261E",
+    "#5E8C61",
+    "#9AA5B1",
+    "#7B5EA7",
+    "#2A7F8E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1E2A38",
+  "tableAccent": "#E8590C",
+  "good": "#5E8C61",
+  "neutral": "#F5A524",
+  "bad": "#B3261E",
+  "textClasses": {
+    "callout": {
+      "fontSize": 30,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1E2A38"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1E2A38"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1E2A38"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B7785"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E7DED2"
+              }
+            },
+            "radius": 12
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ]
+      }
+    }
+  }
+}
