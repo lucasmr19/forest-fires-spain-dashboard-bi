@@ -1,4 +1,4 @@
-# Incendios forestales en España · Dashboard en Power BI
+# 👨‍🚒 Incendios forestales en España - Dashboard en Power BI
 
 Panel interactivo de análisis de **585.399 incendios forestales en España entre 1968 y 2016**. Explora dónde, cuándo y por qué arden los montes, qué los hace crecer y cuántos recursos se movilizan para apagarlos.
 
@@ -19,6 +19,17 @@ El dashboard tiene **7 páginas** con una barra lateral común: navegación entr
 | 🌲 **Tipología**      | ¿Qué tipo de incendio es?     | Conatos vs. incendios vs. grandes incendios (GIF), combustible, tipo de fuego y de ataque                     |
 | 🌡️ **Clima y riesgo** | ¿Qué condiciones los agravan? | Matriz temperatura × humedad, efecto de la duración, el viento, los días sin lluvia y la altitud              |
 | 🚒 **Recursos**       | ¿Cuánto esfuerzo requieren?   | Personal, medios pesados y aéreos por año y comunidad, esfuerzo vs. superficie quemada por provincia          |
+
+## 🔄 Evolución del proyecto
+
+Este proyecto es la **versión 2.0** de [Forest Fires Spain Dashboard](https://github.com/lucasmr19/forest-fires-spain-dashboard), desarrollado originalmente con **Python, Pandas, SQL y Streamlit**.
+
+La nueva versión migra el análisis y la visualización a **Power BI**, incorporando un modelo semántico en estrella, transformaciones con **Power Query (M)**, medidas **DAX**, filtros sincronizados y una estructura de informe de **7 páginas**.
+
+La evolución del proyecto permitió pasar de un dashboard desarrollado íntegramente en Python a una solución de **Business Intelligence más estructurada y orientada al análisis interactivo**, manteniendo el mismo conjunto de datos y ampliando considerablemente las capacidades de exploración y visualización.
+
+**Tecnologías — versión original:** Python · Pandas · SQL · Streamlit · Folium
+**Tecnologías — versión actual:** Power BI · Power Query (M) · DAX · TMDL · PBIR
 
 ## 🔎 Qué se aprecia en los datos
 
